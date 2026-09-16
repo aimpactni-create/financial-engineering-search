@@ -614,15 +614,13 @@ function renderBlocks(text) {
 function renderUniversitySection(t) {
   if (!t.universityInsights) return '';
   const raw = String(t.universityInsights);
-  const chunks = raw.split(/
-(?=### )/);
+  const chunks = raw.split(/\n(?=### )/);
   let bodyHtml = '';
   for (const chunk of chunks) {
     const trimmed = chunk.trim();
     if (!trimmed) continue;
     if (trimmed.startsWith('### ')) {
-      const nl = trimmed.indexOf('
-');
+      const nl = trimmed.indexOf('\n');
       const heading = (nl === -1 ? trimmed.slice(4) : trimmed.slice(4, nl)).trim();
       const rest = nl === -1 ? '' : trimmed.slice(nl + 1).trim();
       bodyHtml += '<h3 class="uni-school">' + escapeHtml(heading) + '</h3>';
