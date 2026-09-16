@@ -21,12 +21,18 @@ Everything lives in **`index.html`** (HTML + CSS + JS + topic library).
 
 ## What you get
 
-- **Search**: type a query and hit **Search** (or Enter)—results list with title, snippet, category
-- **Browse**: parent topic dropdown (grouped by category) → subtopic dropdown → **Open**
-- Full sections on every topic: What it is · Why it matters · Day-to-day · In business · Entrepreneur tip · For entrepreneurs · Stock market angle
+- **Search**: type a query and hit **Search** (or Enter)—results with title, snippet, category
+- **Browse**: parent topic dropdown (by category) → subtopic dropdown → **Open**
+- Full topic sections, including **What top universities teach (plain English)** — summaries of how ideas are framed at places such as MIT, Harvard, Stanford, Oxford, and Cambridge, plus links to **public** resources (especially MIT OpenCourseWare) where available
 - Hash routes: `#/`, `#/browse`, `#/search?q=…`, `#/topic/<slug>`
 - Rich white canvas, Apple system typography, golden-ratio spacing scale
 - Footer: **PNCDNC AI Team** + educational disclaimer
+
+## University notes (important)
+
+FinEngine’s university sections are **educational summaries in our own words** and pointers to **legitimately public** materials (for example MIT OpenCourseWare).  
+
+They are **not** affiliated with those universities, **not** a dump of proprietary course packs, HBS cases, paywalled papers, or LMS content, and **not** a claim to include “all” materials from any school.
 
 ## Disclaimer
 
