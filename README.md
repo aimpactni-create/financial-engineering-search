@@ -8,7 +8,13 @@ Built by **PNCDNC AI Team**.
 
 > Educational content only — not personalized financial advice.
 
-## Run (no build step)
+## Live site
+
+**https://aimpactni-create.github.io/financial-engineering-search/**
+
+(GitHub Pages, served from `main` / root `index.html`.)
+
+## Run locally (no build step)
 
 ```bash
 open index.html          # macOS
@@ -17,22 +23,24 @@ xdg-open index.html      # Linux
 python3 -m http.server 8080
 ```
 
-Everything lives in **`index.html`** (HTML + CSS + JS + topic library).
+Everything lives in **`index.html`**.
 
 ## What you get
 
-- **Search**: type a query and hit **Search** (or Enter)—results with title, snippet, category
-- **Browse**: parent topic dropdown (by category) → subtopic dropdown → **Open**
-- Full topic sections, including **What top universities teach (plain English)** — summaries of how ideas are framed at places such as MIT, Harvard, Stanford, Oxford, and Cambridge, plus links to **public** resources (especially MIT OpenCourseWare) where available
+- **Search**: type a query and hit **Search** (or Enter)
+- **Browse**: topic dropdown → subtopic → **Open**
+- Full topic sections, including a deep **What top universities teach (plain English)** layer with Harvard, Stanford, MIT, Oxford, and Cambridge angles, plus links to **public** resources (especially MIT OpenCourseWare)
 - Hash routes: `#/`, `#/browse`, `#/search?q=…`, `#/topic/<slug>`
-- Rich white canvas, Apple system typography, golden-ratio spacing scale
+- Rich white canvas, Apple system typography, golden-ratio spacing
 - Footer: **PNCDNC AI Team** + educational disclaimer
 
-## University notes (important)
+## How university content works
 
-FinEngine’s university sections are **educational summaries in our own words** and pointers to **legitimately public** materials (for example MIT OpenCourseWare).  
+Each topic includes original plain-English summaries of how leading universities *tend to frame* the idea (managerial/case-style habits at Harvard, practical/venture angles at Stanford, model rigor via MIT OCW-style teaching, PPE/institutional lenses at Oxford, analytical mechanisms at Cambridge).  
 
-They are **not** affiliated with those universities, **not** a dump of proprietary course packs, HBS cases, paywalled papers, or LMS content, and **not** a claim to include “all” materials from any school.
+Where possible we link **real public pages** such as MIT OpenCourseWare.  
+
+FinEngine is **not affiliated** with those universities and does **not** reproduce proprietary course packs, HBS cases, paywalled papers, or LMS content.
 
 ## Disclaimer
 
